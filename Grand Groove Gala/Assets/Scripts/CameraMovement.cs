@@ -2,15 +2,13 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
+    public Transform player;
     // Update is called once per frame
     void Update()
     {
-        
+        Vector3 cameraPosOffset = new Vector3 (-5.624367f, 3.267657f, 4.965053f);
+        //Vector3 cameraRotOffset = new Vector3 (20.901f, 143.078f, 0);
+
+        transform.position = cameraPosOffset + player.transform.position;
     }
 }

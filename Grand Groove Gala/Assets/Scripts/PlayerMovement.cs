@@ -10,6 +10,9 @@ public class PlayerMovement : MonoBehaviour
     private GameObject[] invalidTilesList;
     public GameObject invalidTilesParent;
 
+    public float timer = 0;
+
+    
     bool TileExists(int x, int y)
     {
         invalidTilesList = new GameObject[invalidTilesParent.transform.childCount];
@@ -29,11 +32,12 @@ public class PlayerMovement : MonoBehaviour
     {
         int nextX = playerX;
         int nextY = playerY;
-
-        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) nextX++;
-        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) nextY--;
-        if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) nextX--;
-        if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)) nextY++;
+        if (timer < 1.5f) return;
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) nextX++;
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) nextY--;
+        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)) nextX--;
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) nextY++;
+        if (playerX != nextX || playerY != nextY) timer = 0;
 
         if (TileExists(nextX, nextY))
         {
@@ -44,6 +48,7 @@ public class PlayerMovement : MonoBehaviour
 
     void ApplyMovement()
     {
+
         int tileIndex = 0;
         for (int i = 0; i < grid.GetComponent<InitializeObjects>().tiles.Length; i++)
         {
@@ -56,17 +61,19 @@ public class PlayerMovement : MonoBehaviour
 
         if (tileIndex != 0)
         {
-            float x = grid.GetComponent<InitializeObjects>().tiles[tileIndex].transform.position.x;
-            float y = grid.GetComponent<InitializeObjects>().tiles[tileIndex].transform.position.y;
-            float z = grid.GetComponent<InitializeObjects>().tiles[tileIndex].transform.position.z;
-            transform.position = new Vector3(x, y + transform.position.y, z);
-            Debug.Log(playerX + ", " + playerY);
+            Vector3 newPos = new Vector3(grid.GetComponent<InitializeObjects>().tiles[tileIndex].transform.position.x,
+                                         grid.GetComponent<InitializeObjects>().tiles[tileIndex].transform.position.y + transform.position.y,
+                                         grid.GetComponent<InitializeObjects>().tiles[tileIndex].transform.position.z);
+            transform.position = Vector3.Lerp(transform.position, newPos, .9f);
         }
+
     }
 
     void Update()
     {
+        timer += Time.deltaTime;
         CheckMovement();
         ApplyMovement();
+        Debug.Log(timer);
     }
 }
