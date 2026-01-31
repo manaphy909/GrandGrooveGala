@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 976
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -167,7 +167,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1324.6666
-    height: 546
+    height: 566.6667
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
@@ -191,7 +191,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 362
-    height: 546
+    height: 566.6667
   m_MinSize: {x: 201, y: 226}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 14}
@@ -217,7 +217,7 @@ MonoBehaviour:
     x: 362
     y: 0
     width: 962.6666
-    height: 546
+    height: 566.6667
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 15}
@@ -242,9 +242,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 546
+    y: 566.6667
     width: 1324.6666
-    height: 374
+    height: 353.3333
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
@@ -272,8 +272,8 @@ MonoBehaviour:
     y: 0
     width: 382
     height: 920
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -568,9 +568,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 624.6667
+    y: 645.3334
     width: 1323.6666
-    height: 348
+    height: 327.3333
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -595,7 +595,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -605,7 +605,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\manap\Documents\GitHub\GrandGrooveGala\Grand Groove
     Gala
@@ -615,14 +615,14 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 52830
+    - m_Data: 52840
     m_LastClickedID:
-      m_Data: 52830
+      m_Data: 52840
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 52470
-    - m_Data: 52472
-    - m_Data: 52474
+    - m_Data: 50156
+    - m_Data: 50158
+    - m_Data: 50160
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -656,9 +656,9 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 52470
-    - m_Data: 52472
-    - m_Data: 52474
+    - m_Data: 50156
+    - m_Data: 50158
+    - m_Data: 50160
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -686,8 +686,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 52830
-    m_LastClickedInstanceID: 52830
+    - m_Data: 109916
+    m_LastClickedInstanceID: 109916
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 52376
@@ -744,7 +744,7 @@ MonoBehaviour:
     x: 0
     y: 78.66667
     width: 361
-    height: 520
+    height: 540.6667
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -761,11 +761,21 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: []
+      m_SelectedIDs:
+      - m_Data: 109916
       m_LastClickedID:
-        m_Data: 0
+        m_Data: 109916
       m_ExpandedIDs:
-      - m_Data: -7186
+      - m_Data: -151730
+      - m_Data: -149526
+      - m_Data: -143598
+      - m_Data: -108826
+      - m_Data: -1302
+      - m_Data: 49456
+      - m_Data: 49968
+      - m_Data: 107072
+      - m_Data: 109646
+      - m_Data: 110282
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -815,7 +825,7 @@ MonoBehaviour:
     x: 362
     y: 78.66667
     width: 960.6666
-    height: 520
+    height: 540.6667
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1470,9 +1480,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -3.1860147, y: 2.7669668, z: 2.127627}
+    m_Target: {x: -2.2777147, y: 2.2491183, z: -1.2439603}
     speed: 2
-    m_Value: {x: -3.1860147, y: 2.7669668, z: 2.127627}
+    m_Value: {x: -2.2777147, y: 2.2491183, z: -1.2439603}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1518,13 +1528,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.11623529, y: 0.88365847, z: -0.33101034, w: 0.31040537}
+    m_Target: {x: 0.42513382, y: -0.56566966, z: 0.4273605, w: 0.5627414}
     speed: 2
-    m_Value: {x: 0.11621889, y: 0.8835338, z: -0.33096364, w: 0.31036156}
+    m_Value: {x: 0.42512622, y: -0.5656595, z: 0.42735288, w: 0.5627313}
   m_Size:
-    m_Target: 2.379026
+    m_Target: 7.879442
     speed: 2
-    m_Value: 2.379026
+    m_Value: 7.879442
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1582,7 +1592,7 @@ MonoBehaviour:
     x: 362
     y: 78.66667
     width: 960.6666
-    height: 520
+    height: 540.6667
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1639,22 +1649,22 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 960.6666
-      height: 499
-    m_Scale: {x: 0.69305557, y: 0.69305557}
-    m_Translation: {x: 480.3333, y: 249.5}
+      height: 519.6667
+    m_Scale: {x: 0.72175926, y: 0.72175926}
+    m_Translation: {x: 480.3333, y: 259.83334}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -693.0661
+      x: -665.5035
       y: -360
-      width: 1386.1322
+      width: 1331.007
       height: 720
     m_MinimalGUI: 1
-  m_defaultScale: 0.69305557
-  m_LastWindowPixelSize: {x: 1441, y: 780}
+  m_defaultScale: 0.72175926
+  m_LastWindowPixelSize: {x: 1441, y: 811}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1683,9 +1693,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 624.6667
+    y: 645.3334
     width: 1323.6666
-    height: 348
+    height: 327.3333
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
