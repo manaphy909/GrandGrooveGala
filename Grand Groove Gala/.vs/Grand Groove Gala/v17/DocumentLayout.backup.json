@@ -46,7 +46,8 @@
               "RelativeToolTip": "Assets\\Scripts\\TileData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T06:33:57.958Z"
+              "WhenOpened": "2026-01-31T06:33:57.958Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -71,7 +72,8 @@
               "RelativeToolTip": "Assets\\Scripts\\CharacterData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T06:02:52.527Z"
+              "WhenOpened": "2026-01-31T06:02:52.527Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -83,7 +85,8 @@
               "RelativeToolTip": "Assets\\Scripts\\InitializeObjects.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T05:30:38.179Z"
+              "WhenOpened": "2026-01-31T05:30:38.179Z",
+              "EditorCaption": ""
             }
           ]
         }
