@@ -5,14 +5,23 @@ public class PlayerMovement : MonoBehaviour
 {
     public int playerX;
     public int playerY;
+    [SerializeField] float yOffset = 0.59f;
+
+    private bool isMoving = false;
+    private Vector3 targetPosition;
+    private TileData targetTile;
+    private float moveSpeed = 10f;
+
+
     public GameObject grid;
+    private InitializeObjects gridData;
+    public TileData currentTile;
 
     private GameObject[] invalidTilesList;
     public GameObject invalidTilesParent;
 
     public float timer = 0;
 
-    
     bool TileExists(int x, int y)
     {
         invalidTilesList = new GameObject[invalidTilesParent.transform.childCount];
@@ -20,53 +29,107 @@ public class PlayerMovement : MonoBehaviour
         {
             if (x == child.GetComponent<TileData>().x &&
                 y == child.GetComponent<TileData>().y &&
-                child.gameObject.tag == "Undancable")
+                child.gameObject.CompareTag("Undancable"))
             {
+                Debug.Log("tile does NOT exist");
                 return false;
             }
         }
+        Debug.Log("tile does exist");
         return true;
     }
 
+    void BeginMove()
+    {
+        isMoving = true;
+
+        foreach (GameObject tileObj in gridData.tiles)
+        {
+            TileData tile = tileObj.GetComponent<TileData>();
+            if (tile.x == playerX && tile.y == playerY)
+            {
+                targetTile = tile;
+
+                targetPosition = new Vector3(
+                    tileObj.transform.position.x,
+                    tileObj.transform.position.y + yOffset,
+                    tileObj.transform.position.z
+                );
+
+                CharacterData playerData = GetComponent<CharacterData>();
+                CharacterData targetData = targetTile.character;
+
+                if (targetData != null)
+                    Debug.Log(playerData.name + " swaps with " + targetData.name);
+                else
+                    Debug.Log(playerData.name + " moves into empty tile");
+
+                targetTile.character = playerData;
+                currentTile.character = targetData;
+
+                if (targetData != null)
+                {
+                    Vector3 temp = new Vector3 (currentTile.transform.position.x,
+                                                currentTile.transform.position.y + yOffset,
+                                                currentTile.transform.position.z);
+                    targetData.transform.position = temp;
+                        //Vector3.Lerp(targetData.transform.position, temp, Time.deltaTime * moveSpeed);
+                }
+
+                currentTile = targetTile;
+
+                break;
+            }
+        }
+    }
+
+
+
     void CheckMovement()
     {
-        int nextX = playerX;
-        int nextY = playerY;
+        if (isMoving) return;
         if (timer < 1.5f) return;
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) nextX++;
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) nextY--;
-        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)) nextX--;
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) nextY++;
-        if (playerX != nextX || playerY != nextY) timer = 0;
+
+        Vector2Int dir = Vector2Int.zero;
+
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) dir.x += 1;
+        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)) dir.x -= 1;
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) dir.y += 1;
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) dir.y -= 1;
+
+        if (dir == Vector2Int.zero) return;
+
+        int nextX = playerX + dir.x;
+        int nextY = playerY + dir.y;
 
         if (TileExists(nextX, nextY))
         {
             playerX = nextX;
             playerY = nextY;
+            timer = 0;
+
+            BeginMove();
         }
     }
 
+
     void ApplyMovement()
     {
+        if (!isMoving) return;
 
-        int tileIndex = 0;
-        for (int i = 0; i < grid.GetComponent<InitializeObjects>().tiles.Length; i++)
+        transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * moveSpeed);
+
+        if (Vector3.Distance(transform.position, targetPosition) < 0.01f)
         {
-            if (playerX == grid.GetComponent<InitializeObjects>().tiles[i].GetComponent<TileData>().x &&
-                playerY == grid.GetComponent<InitializeObjects>().tiles[i].GetComponent<TileData>().y)
-            {
-                tileIndex = i; break;
-            }
+            transform.position = targetPosition;
+            isMoving = false;
         }
+    }
 
-        if (tileIndex != 0)
-        {
-            Vector3 newPos = new Vector3(grid.GetComponent<InitializeObjects>().tiles[tileIndex].transform.position.x,
-                                         grid.GetComponent<InitializeObjects>().tiles[tileIndex].transform.position.y + transform.position.y,
-                                         grid.GetComponent<InitializeObjects>().tiles[tileIndex].transform.position.z);
-            transform.position = Vector3.Lerp(transform.position, newPos, .9f);
-        }
 
+    private void Start()
+    {
+        gridData = grid.GetComponent<InitializeObjects>();
     }
 
     void Update()
@@ -74,6 +137,5 @@ public class PlayerMovement : MonoBehaviour
         timer += Time.deltaTime;
         CheckMovement();
         ApplyMovement();
-        Debug.Log(timer);
     }
 }
