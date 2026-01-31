@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Undancable
+  - Wall
   layers:
   - Default
   - TransparentFX
