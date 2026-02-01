@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|c:\\users\\manap\\documents\\github\\grandgroovegala\\grand groove gala\\assets\\scripts\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\tiledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tiledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|c:\\users\\manap\\documents\\github\\grandgroovegala\\grand groove gala\\assets\\scripts\\gridmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gridmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\playeridentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeridentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\initializeobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\initializeobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\charactermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\masktrackercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\masktrackercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|c:\\users\\manap\\documents\\github\\grandgroovegala\\grand groove gala\\assets\\scripts\\gridcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gridcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\tiledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tiledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +54,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "GridCharacter.cs",
+              "DocumentMoniker": "C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\GridCharacter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GridCharacter.cs",
+              "ToolTip": "C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\GridCharacter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GridCharacter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:16:40.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GridManager.cs",
+              "DocumentMoniker": "C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\GridManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GridManager.cs",
+              "ToolTip": "C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\GridManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GridManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T08:12:11.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\PlayerIdentity.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerIdentity.cs",
+              "ToolTip": "C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\PlayerIdentity.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerIdentity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T06:42:40.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CharacterMovement.cs",
               "DocumentMoniker": "C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\CharacterMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterMovement.cs",
               "ToolTip": "C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\CharacterMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\CharacterMovement.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAwAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-01T05:16:04.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MaskTrackerComponent.cs",
               "DocumentMoniker": "C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\MaskTrackerComponent.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MaskTrackerComponent.cs",
@@ -68,39 +119,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "TileData.cs",
               "DocumentMoniker": "C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\TileData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TileData.cs",
               "ToolTip": "C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\TileData.cs",
               "RelativeToolTip": "Assets\\Scripts\\TileData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T06:33:57.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T06:33:57.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAYwF0AAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-31T06:31:51.605Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "InitializeObjects.cs",
               "DocumentMoniker": "C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\InitializeObjects.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InitializeObjects.cs",
               "ToolTip": "C:\\Users\\manap\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\InitializeObjects.cs",
               "RelativeToolTip": "Assets\\Scripts\\InitializeObjects.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-31T05:30:38.179Z",
               "EditorCaption": ""

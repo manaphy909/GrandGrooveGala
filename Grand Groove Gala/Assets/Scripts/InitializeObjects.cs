@@ -2,6 +2,7 @@ using Mono.Cecil;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.Tilemaps;
 
 public class InitializeObjects : MonoBehaviour
 {
@@ -9,9 +10,11 @@ public class InitializeObjects : MonoBehaviour
     public GameObject[] tiles;
     public GameObject[] characters;
 
+    public Tilemap floor;
+
     void Awake()
     {
-        Debug.Log("start initialize objects");
+        /*Debug.Log("start initialize objects");
         GameObject ground = transform.Find("Ground").gameObject;
         int i = 0;
         tiles = new GameObject[ground.transform.childCount];
@@ -33,6 +36,6 @@ public class InitializeObjects : MonoBehaviour
             i++;
         }
         tiles[i].GetComponent<TileData>().character = player.GetComponent<CharacterData>();
-        player.GetComponent<PlayerMovement>().currentTile = tiles[i].GetComponent<TileData>();
+        player.GetComponent<PlayerMovement>().currentTile = tiles[i].GetComponent<TileData>();*/
     }
 }

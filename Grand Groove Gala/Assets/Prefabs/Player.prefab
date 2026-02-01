@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 5863324457035347303}
   - component: {fileID: 7232156188473678738}
   - component: {fileID: -8946331405274512089}
-  - component: {fileID: 7868888207174249608}
   - component: {fileID: 4924738865663915202}
   - component: {fileID: 1799935458803156602}
+  - component: {fileID: 824064665823175781}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -130,27 +130,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eedf7e6bb5ec42742ab5d50f6fe49daf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  playerX: 0
-  playerY: 0
-  yOffset: 0.59
-  grid: {fileID: 0}
-  currentTile: {fileID: 0}
-  invalidTilesParent: {fileID: 0}
+  gridCharacter: {fileID: 824064665823175781}
   timer: 0
---- !u!114 &7868888207174249608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7155737639072275670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25d04207d6b36534b9ea43f042720168, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
-  ID: -1
-  partnerID: 0
 --- !u!114 &4924738865663915202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,4 +158,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MaskTrackerComponent
   activeMask: 0
+  MaskMat: []
   activeMaskEnum: 0
+--- !u!114 &824064665823175781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7155737639072275670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 636c38959f715714f82bbc4ee258e431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GridCharacter
+  gridPosition: {x: 0, y: 0}
+  moveSpeed: 5
