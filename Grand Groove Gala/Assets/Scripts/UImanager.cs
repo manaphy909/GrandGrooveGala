@@ -11,6 +11,8 @@ public class UImanager : MonoBehaviour
 
     PlayerMovementPrime PlayerRef;
 
+    PlayerIdentity PlayerIdentity;
+
     public RawImage MyImage;
 
     public Image myimage;
@@ -21,6 +23,7 @@ public class UImanager : MonoBehaviour
 
         PlayerRef = gameObject.GetComponent<PlayerMovementPrime>();
 
+        PlayerIdentity = gameObject.GetComponent<PlayerIdentity>();
 
     }
 
@@ -49,11 +52,11 @@ public class UImanager : MonoBehaviour
 
         if ((PlayerRef.DirectionToMoveX == "Down") && (PlayerRef.DirectionToMoveY == "Right")) { MyImage = ArrowArray[3].GetComponent<RawImage>(); MyImage.color = Color.red; } else { ArrowArray[3].GetComponent<RawImage>().color = Color.white; }
 
-        
-        if(PlayerRef.PlayerActiveMask == 0) { myimage = MaskImages[0].GetComponent<Image>();myimage.color = Color.red;} else { MaskImages[0].GetComponent<Image>().color = Color.white; }
-        if(PlayerRef.PlayerActiveMask == 1) { myimage = MaskImages[2].GetComponent<Image>();myimage.color = Color.red;} else { MaskImages[2].GetComponent<Image>().color = Color.white; }
-        if (PlayerRef.PlayerActiveMask == 2) { myimage = MaskImages[1].GetComponent<Image>();myimage.color = Color.red;} else { MaskImages[1].GetComponent<Image>().color = Color.white; }
-        if (PlayerRef.PlayerActiveMask == 3) { myimage = MaskImages[3].GetComponent<Image>();myimage.color = Color.red;} else { MaskImages[3].GetComponent<Image>().color = Color.white; }
+
+        if (PlayerIdentity.activeMaskEnum == MaskTypes.Sloth) { myimage = MaskImages[2].GetComponent<Image>();myimage.color = Color.red;} else { MaskImages[2].GetComponent<Image>().color = Color.white; }
+        if(PlayerIdentity.activeMaskEnum == MaskTypes.Lust) { myimage = MaskImages[0].GetComponent<Image>();myimage.color = Color.red;} else { MaskImages[0].GetComponent<Image>().color = Color.white; }
+        if (PlayerIdentity.activeMaskEnum == MaskTypes.Wrath) { myimage = MaskImages[3].GetComponent<Image>();myimage.color = Color.red;} else { MaskImages[3].GetComponent<Image>().color = Color.white; }
+        if (PlayerIdentity.activeMaskEnum == MaskTypes.Coward) { myimage = MaskImages[1].GetComponent<Image>();myimage.color = Color.red;} else { MaskImages[1].GetComponent<Image>().color = Color.white; }
 
 
     }

@@ -1,9 +1,11 @@
 using System;
 using System.Threading;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class PlayerMovementPrime : MonoBehaviour
 {
@@ -15,7 +17,8 @@ public class PlayerMovementPrime : MonoBehaviour
     private Vector3 targetPosition;
     private float moveSpeed = 10f;
     public bool CheckTileBool;
-    public int PlayerActiveMask;
+
+    public Mask PlayerActiveMask;
 
     public int nextX;
     public int nextY;
@@ -48,8 +51,6 @@ public class PlayerMovementPrime : MonoBehaviour
     public GameObject invalidTilesParent;
 
     public float timer;
-
-
 
     public void Start()
     {
@@ -259,15 +260,18 @@ public class PlayerMovementPrime : MonoBehaviour
 
     void CheckMaskChange()
     {
-        if (Input.GetKey(KeyCode.UpArrow)) { PlayerMask.activeMask = 0; PlayerMask.SetActiveMask(); PlayerActiveMask = 0; }
-
-        if (Input.GetKey(KeyCode.DownArrow)) { PlayerMask.activeMask = 1; PlayerMask.SetActiveMask(); PlayerActiveMask = 1; }
-
-        if (Input.GetKey(KeyCode.LeftArrow)) { PlayerMask.activeMask = 2; PlayerMask.SetActiveMask(); PlayerActiveMask = 2; }
-
-        if (Input.GetKey(KeyCode.RightArrow)) { PlayerMask.activeMask = 3; PlayerMask.SetActiveMask(); PlayerActiveMask = 3; }
+        if (Input.GetKeyDown(KeyCode.UpArrow)) 
+        { 
+            PlayerMask.activeMaskEnum = MaskTypes.Lust; 
+            PlayerMask.SetActiveMask();
+        }
 
 
+        if (Input.GetKeyDown(KeyCode.DownArrow)) { PlayerMask.activeMaskEnum = MaskTypes.Sloth; PlayerMask.SetActiveMask();}
+
+        if (Input.GetKeyDown(KeyCode.LeftArrow)) { PlayerMask.activeMaskEnum = MaskTypes.Coward; PlayerMask.SetActiveMask();}
+
+        if (Input.GetKeyDown(KeyCode.RightArrow)) { PlayerMask.activeMaskEnum = MaskTypes.Wrath; PlayerMask.SetActiveMask();}
 
     }
 
@@ -351,7 +355,7 @@ public class PlayerMovementPrime : MonoBehaviour
     {
         MaskTrackerComponent TileMask = targetTile.GetComponent<MaskTrackerComponent>();
 
-        if (TileMask.activeMask != PlayerActiveMask)
+        if (TileMask.activeMaskEnum != PlayerMask.activeMaskEnum)
         {
 
             health.TakeDamage(10);

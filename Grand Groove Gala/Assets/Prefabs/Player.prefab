@@ -393,6 +393,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eedf7e6bb5ec42742ab5d50f6fe49daf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  lineRendererLogic: {fileID: 0}
+  hasKeyCard: 0
   playerX: 0
   playerY: 0
   yOffset: 0.59
@@ -445,6 +447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MaskTrackerComponent
   activeMask: 0
+  ComparisonInt: 0
   MaskMat: []
   IsPlayer: 0
   activeMaskEnum: 0
