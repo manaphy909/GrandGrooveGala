@@ -105,6 +105,7 @@
     <Compile Include="Assets\Scripts\CameraOcclusion.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementPrime.cs" />
     <Compile Include="Assets\Scripts\MaskTrackerComponent.cs" />
+    <Compile Include="Assets\Scripts\UImanager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />

@@ -23,6 +23,8 @@ public class PlayerMovementPrime : MonoBehaviour
     private float StartDelay = 1.0f;
     public float RepeatDelay;
 
+
+
     public Vector2 Direction = Vector2.up;
 
     Vector2Int dir = Vector2Int.zero;
