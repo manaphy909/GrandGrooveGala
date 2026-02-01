@@ -30,7 +30,7 @@ public class LoadSceneButton : MonoBehaviour
         button = GetComponent<Button>();
         button.onClick.AddListener(loadScene);
     }
-    private void loadScene()
+    public void loadScene()
     {
         StartCoroutine(FadeRoutine(0f, 1f));
         
