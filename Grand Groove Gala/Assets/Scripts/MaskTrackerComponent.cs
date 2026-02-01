@@ -5,14 +5,22 @@ using UnityEngine;
 public class MaskTrackerComponent : MonoBehaviour
 {
     public int activeMask;
+
+    public Material[] MaskMat;
+    
+    MeshRenderer Rend;
+
     public enum Mask
-    { Sloth, Lust, Wrath, Sin }
+    { Sloth, Lust, Wrath, Coward }
 
     public Mask activeMaskEnum;
-    private void Awake()
+    void Start()
     {
         activeMask = UnityEngine.Random.Range(0, 4);
         UnityEngine.Debug.Log(activeMask);
+
+        Rend = GetComponent<MeshRenderer>();
+
 
         MaskSelection();
     }
@@ -22,15 +30,19 @@ public class MaskTrackerComponent : MonoBehaviour
         switch (activeMaskEnum)
         {
             case Mask.Sloth:
+                Rend.material = MaskMat[activeMask];
                 break;
 
             case Mask.Lust:
+                Rend.material = MaskMat[activeMask];
                 break;
 
             case Mask.Wrath:
+                Rend.material = MaskMat[activeMask];
                 break;
 
-            case Mask.Sin:
+            case Mask.Coward:
+                Rend.material = MaskMat[activeMask];
                 break;
         }
     }

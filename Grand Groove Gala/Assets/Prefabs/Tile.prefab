@@ -143,6 +143,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MaskTrackerComponent
   activeMask: 0
+  MaskMat:
+  - {fileID: 2100000, guid: b54a9d998d283374fa6318e817e7b24a, type: 2}
+  - {fileID: 2100000, guid: 66fc598860d267742926afce6debaf60, type: 2}
+  - {fileID: 2100000, guid: 4eafb3039122ac8439696e76df589d7b, type: 2}
+  - {fileID: 2100000, guid: b9771f0023121ee42976137405e17bde, type: 2}
   activeMaskEnum: 0
 --- !u!1 &7808334799316078099
 GameObject:
