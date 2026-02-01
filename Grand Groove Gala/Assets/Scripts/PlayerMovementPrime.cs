@@ -17,7 +17,6 @@ public class PlayerMovementPrime : MonoBehaviour
     public bool CheckTileBool;
     public int PlayerActiveMask;
 
-
     public int nextX;
     public int nextY;
 
@@ -46,20 +45,25 @@ public class PlayerMovementPrime : MonoBehaviour
     private GameObject[] invalidTilesList;
     public GameObject invalidTilesParent;
 
-    public float timer = 0;
+    public float timer;
 
 
 
     public void Start()
     {
+        StartDelay = 3.0f;
 
-        RepeatDelay = 2.0f;
+        RepeatDelay = 3.0f;
 
         gridData = grid.GetComponent<InitializeObjects>();
 
         health = gameObject.GetComponent<HealthComponent>();
 
         PlayerMask = gameObject.GetComponent<PlayerIdentity>();
+
+        timer = RepeatDelay;
+
+        health.TimeBar.value = timer;
 
         InvokeRepeating("ConstantRun", StartDelay, RepeatDelay);
 
@@ -322,10 +326,20 @@ public class PlayerMovementPrime : MonoBehaviour
 
     void Update()
     {
-        timer += Time.deltaTime;
+        
         CheckMovement();
         ApplyMovement();
         CheckMaskChange();
+
+
+        timer -= Time.deltaTime;
+
+        health.TimeBar.value = MathF.Max(timer, 0);
+
+        if(timer <= 0f)
+        {
+            timer = RepeatDelay;
+        }
 
     }
 

@@ -8,6 +8,7 @@ public class HealthComponent : MonoBehaviour
     public float maxHealth = 10f;
     public float currentHealth;
     public Slider Healthbar;
+    public Slider TimeBar;
 
 
     private void Awake()
