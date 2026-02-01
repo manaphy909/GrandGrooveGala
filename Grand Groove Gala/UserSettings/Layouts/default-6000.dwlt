@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1509
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -595,7 +595,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Env Assests/Blue Assests/BlueWalls/Materials
+    - Assets/Art
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -605,7 +605,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Env Assests/Blue Assests/BlueWalls/Materials
+  - Assets/Art
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Github\RD\GrandGrooveGala\Grand Groove Gala
   m_LockTracker:
@@ -614,16 +614,15 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 50786
+    - m_Data: 50734
     m_LastClickedID:
-      m_Data: 50786
+      m_Data: 50734
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 50360
-    - m_Data: 50746
-    - m_Data: 50776
-    - m_Data: 50780
-    - m_Data: 50790
+    - m_Data: 50348
+    - m_Data: 50736
+    - m_Data: 50756
+    - m_Data: 50758
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -657,7 +656,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 50360
+    - m_Data: 50348
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -763,7 +762,7 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -1418
+      - m_Data: -1302
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1518,11 +1517,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.09174594, y: -0.9019989, z: 0.3491499, w: 0.23717046}
     speed: 2
-    m_Value: {x: 0.09138221, y: -0.90244275, z: 0.3477661, w: 0.23728704}
+    m_Value: {x: -0.091737926, y: 0.9019201, z: -0.3491194, w: -0.23714973}
   m_Size:
     m_Target: 15.285916
     speed: 2
-    m_Value: 14.627671
+    m_Value: 15.285916
   m_Ortho:
     m_Target: 0
     speed: 2
