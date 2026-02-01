@@ -7,6 +7,7 @@ public class TargetCircle : MonoBehaviour
     public Light spotLight;
     public FieldOfView fieldOfView;
     public LineRendererLogic lineRendererLogic;
+    public GameObject player;
 
     public List<Vector3> pathPoints;
     public float moveSpeed = 5f;
@@ -48,11 +49,5 @@ public class TargetCircle : MonoBehaviour
     {
         UpdatePosition();
         if (transform.localScale.x > 0) UpdateScale();
-    }
-
-    private void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.name == "Player") Debug.Log("hit player");
-
     }
 }
