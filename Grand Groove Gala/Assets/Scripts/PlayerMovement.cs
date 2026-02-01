@@ -5,6 +5,8 @@ using UnityEngine.EventSystems;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public LineRendererLogic lineRendererLogic;
+
     public int playerX;
     public int playerY;
     [SerializeField] float yOffset = 0.59f;
@@ -102,7 +104,7 @@ public class PlayerMovement : MonoBehaviour
 
         RaycastHit hit;
 
-        Debug.DrawRay(transform.position, Direction * 1f, Color.red, 1000);
+        //Debug.DrawRay(transform.position, Direction * 1f, Color.red, 1000);
 
         if (Physics.Raycast(transform.position, Direction * 1f, out hit))
         {
@@ -177,6 +179,9 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.position = targetPosition;
             isMoving = false;
+
+            lineRendererLogic.points.Add(transform.position);
+            lineRendererLogic.DrawLineFromPoints();
         }
     }
 
