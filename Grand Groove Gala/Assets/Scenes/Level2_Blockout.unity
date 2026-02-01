@@ -26005,7 +26005,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TargetCircle
   spotLight: {fileID: 1506838824}
-  fieldOfView: {fileID: 0}
+  fieldOfView: {fileID: 1396419872}
   lineRendererLogic: {fileID: 1533511313}
   player: {fileID: 1533511312}
   pathPoints: []
@@ -27699,6 +27699,17 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1387326057}
   m_Mesh: {fileID: 972614196974622048, guid: 54860170c229ab148a4c85bc32745b49, type: 3}
+--- !u!114 &1396419872 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4417376796454388041, guid: 08d647f78189e5f40b60cd63da5a1585, type: 3}
+  m_PrefabInstance: {fileID: 2360339015093588307}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8301591b0dcbe3a4380f8c1a85c6378f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FieldOfView
 --- !u!1001 &1402532786
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42193,6 +42204,14 @@ PrefabInstance:
       propertyPath: invalidTilesParent
       value: 
       objectReference: {fileID: 1089221441}
+    - target: {fileID: 4476540618509525666, guid: 517d01238fe793548a84ef074aab7e6f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4476540618509525666, guid: 517d01238fe793548a84ef074aab7e6f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4884450680218815990, guid: 517d01238fe793548a84ef074aab7e6f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5
@@ -42231,6 +42250,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4884450680218815990, guid: 517d01238fe793548a84ef074aab7e6f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6676276284669882713, guid: 517d01238fe793548a84ef074aab7e6f, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6676276284669882713, guid: 517d01238fe793548a84ef074aab7e6f, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7155737639072275670, guid: 517d01238fe793548a84ef074aab7e6f, type: 3}
