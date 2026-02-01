@@ -175,7 +175,7 @@ Material:
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _Color: {r: 0.13563336, g: 0.26225072, b: 0.10946172, a: 1}
     - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionColor: {r: 1.1629455, g: 2.2485867, b: 0.938545, a: 1}
+    - _EmissionColor: {r: 0.77477026, g: 1.4980394, b: 0.62527156, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
