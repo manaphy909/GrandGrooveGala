@@ -39,7 +39,7 @@ public class PlayerMovementPrime : MonoBehaviour
 
     public TileData currentTile;
 
-    private HealthComponent health;
+    public HealthComponent health;
 
     private TileData targetTile;
 
@@ -62,9 +62,10 @@ public class PlayerMovementPrime : MonoBehaviour
 
         RepeatDelay = 3.0f;
 
-        gridData = grid.GetComponent<InitializeObjects>();
 
-        health = gameObject.GetComponent<HealthComponent>();
+        //health = gameObject.GetComponent<HealthComponent>();
+
+        gridData = grid.GetComponent<InitializeObjects>();
 
         PlayerMask = gameObject.GetComponent<PlayerIdentity>();
 
