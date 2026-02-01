@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\uiscripts\\loadscenebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\loadscenebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|c:\\users\\isaac\\game projects\\grandgroovegala\\grand groove gala\\assets\\scripts\\uiscripts\\buttonclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\buttonclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|c:\\users\\isaac\\game projects\\grandgroovegala\\grand groove gala\\assets\\scripts\\uiscripts\\quit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\uiscripts\\quit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\quit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\uiscripts\\loadscenebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\loadscenebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\utdscripts\\trueplayermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,36 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ButtonClick.cs",
               "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\UIScripts\\ButtonClick.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIScripts\\ButtonClick.cs",
               "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\UIScripts\\ButtonClick.cs",
               "RelativeToolTip": "Assets\\Scripts\\UIScripts\\ButtonClick.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-01T18:05:04.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "LoadSceneButton.cs",
               "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\UIScripts\\LoadSceneButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIScripts\\LoadSceneButton.cs",
               "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\UIScripts\\LoadSceneButton.cs",
               "RelativeToolTip": "Assets\\Scripts\\UIScripts\\LoadSceneButton.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAqwCIAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAACIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T21:36:34.994Z"
+              "WhenOpened": "2026-02-01T21:36:34.994Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Quit.cs",
               "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\UIScripts\\Quit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIScripts\\Quit.cs",
@@ -67,8 +68,7 @@
               "RelativeToolTip": "Assets\\Scripts\\UIScripts\\Quit.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAADwvxkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T21:29:54.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T21:29:54.848Z"
             },
             {
               "$type": "Document",
