@@ -7,6 +7,9 @@ public class MaskTrackerComponent : MonoBehaviour
     public int activeMask;
 
     public Material[] MaskMat;
+
+
+    public bool IsPlayer;
     
     MeshRenderer Rend;
 
@@ -46,4 +49,33 @@ public class MaskTrackerComponent : MonoBehaviour
                 break;
         }
     }
+
+
+    public void CheckObject()
+    {
+
+        if(gameObject.tag == "Player")
+        {
+
+            IsPlayer = true;
+
+        }
+        else
+        {
+
+            IsPlayer = false;
+
+        }
+
+
+
+
+    }
+
+
+
+
 }
+
+
+

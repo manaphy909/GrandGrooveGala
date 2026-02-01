@@ -14,6 +14,11 @@ public class PlayerMovement : MonoBehaviour
     private TileData targetTile;
     private float moveSpeed = 10f;
 
+    public bool CheckTileBool;
+
+    public int PlayerActiveMask;
+
+    private HealthComponent health;
 
     public GameObject grid;
     private InitializeObjects gridData;
@@ -91,6 +96,9 @@ public class PlayerMovement : MonoBehaviour
                 break;
             }
         }
+
+        CheckTile();
+
         grid.GetComponent<CharacterMovement>().UpdateCharacterMovement();
     }
 
@@ -170,6 +178,7 @@ public class PlayerMovement : MonoBehaviour
 
     void ApplyMovement()
     {
+
         if (!isMoving) return;
 
         transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * moveSpeed);
@@ -179,12 +188,17 @@ public class PlayerMovement : MonoBehaviour
             transform.position = targetPosition;
             isMoving = false;
         }
+
+        //CheckTile();
+
     }
 
 
     private void Start()
     {
         gridData = grid.GetComponent<InitializeObjects>();
+
+        health = gameObject.GetComponent<HealthComponent>();
     }
 
     void Update()
@@ -194,4 +208,20 @@ public class PlayerMovement : MonoBehaviour
         ApplyMovement();
 
     }
+
+
+    void CheckTile()
+    {
+        MaskTrackerComponent TileMask = targetTile.GetComponent<MaskTrackerComponent>();
+
+        if(TileMask.activeMask != PlayerActiveMask)
+        {
+            
+            health.TakeDamage(10);
+
+        }
+
+    }
+
+
 }

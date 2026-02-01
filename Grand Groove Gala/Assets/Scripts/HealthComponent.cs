@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class HealthComponent : MonoBehaviour
 {
     public float maxHealth = 10f;
-    private float currentHealth;
+    public float currentHealth;
     public Slider Healthbar;
 
 
@@ -26,7 +26,7 @@ public class HealthComponent : MonoBehaviour
     public void SetHealth()
     {
 
-        Healthbar.value = currentHealth;
+        //Healthbar.value = currentHealth;
 
     }
 
