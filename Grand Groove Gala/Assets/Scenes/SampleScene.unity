@@ -17731,6 +17731,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25d04207d6b36534b9ea43f042720168, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+--- !u!114 &1533511319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533511312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46f58b90500cc384e8d4aeee0b27fec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerIdentity
+  activeMask: 0
+  activeMaskEnum: 0
 --- !u!1001 &1534116351
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24392,6 +24406,10 @@ PrefabInstance:
       propertyPath: invalidTilesParent
       value: 
       objectReference: {fileID: 1089221441}
+    - target: {fileID: 1799935458803156602, guid: 517d01238fe793548a84ef074aab7e6f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4884450680218815990, guid: 517d01238fe793548a84ef074aab7e6f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.5
@@ -24443,7 +24461,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7155737639072275670, guid: 517d01238fe793548a84ef074aab7e6f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1533511319}
   m_SourcePrefab: {fileID: 100100000, guid: 517d01238fe793548a84ef074aab7e6f, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
