@@ -9,8 +9,9 @@ public class InitializeObjects : MonoBehaviour
     public GameObject[] tiles;
     public GameObject[] characters;
 
-    void Start()
+    void Awake()
     {
+        Debug.Log("start initialize objects");
         GameObject ground = transform.Find("Ground").gameObject;
         int i = 0;
         tiles = new GameObject[ground.transform.childCount];
