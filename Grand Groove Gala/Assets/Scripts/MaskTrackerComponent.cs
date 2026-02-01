@@ -6,17 +6,15 @@ public class MaskTrackerComponent : MonoBehaviour
 {
     public int activeMask;
 
-    public Material[] MaskMat;
+    public int ComparisonInt;
 
+    public Material[] MaskMat;
 
     public bool IsPlayer;
     
     MeshRenderer Rend;
 
-    public enum Mask
-    { Sloth, Lust, Wrath, Coward }
-
-    public Mask activeMaskEnum;
+    public MaskTypes activeMaskEnum;
     void Start()
     {
         activeMask = UnityEngine.Random.Range(0, 4);
@@ -29,22 +27,22 @@ public class MaskTrackerComponent : MonoBehaviour
     }
     private void MaskSelection()
     {
-        activeMaskEnum = (Mask)activeMask;
+        activeMaskEnum = (MaskTypes)activeMask;
         switch (activeMaskEnum)
         {
-            case Mask.Sloth:
+            case MaskTypes.Sloth:
                 Rend.material = MaskMat[activeMask];
                 break;
 
-            case Mask.Lust:
+            case MaskTypes.Lust:
                 Rend.material = MaskMat[activeMask];
                 break;
 
-            case Mask.Wrath:
+            case MaskTypes.Wrath:
                 Rend.material = MaskMat[activeMask];
                 break;
 
-            case Mask.Coward:
+            case MaskTypes.Coward:
                 Rend.material = MaskMat[activeMask];
                 break;
         }
