@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
 {
     public LineRendererLogic lineRendererLogic;
 
+    public bool hasKeyCard;
+
     public int playerX;
     public int playerY;
     [SerializeField] float yOffset = 0.59f;

@@ -5,29 +5,29 @@ using UnityEngine.UI;
 
 public class HealthComponent : MonoBehaviour
 {
-    public float maxHealth = 10f;
+    public float maxHealth = 50f;
     public float currentHealth;
     public Slider Healthbar;
     public Slider TimeBar;
 
 
-    private void Awake()
+    private void Start()
     {
-        currentHealth = maxHealth;
+        //currentHealth = maxHealth;
     }
 
     public void SetMaxHealth()
     {
 
         Healthbar.maxValue = maxHealth;
-        Healthbar.value = currentHealth;
+        Healthbar.value = 0;
 
     }
 
     public void SetHealth()
     {
 
-        //Healthbar.value = currentHealth;
+        Healthbar.value = currentHealth;
 
     }
 
@@ -35,14 +35,14 @@ public class HealthComponent : MonoBehaviour
     private void Update()
     {
 
-        if (currentHealth <= 0)
+        if (currentHealth >= 50)
             Death();
     }
     public void TakeDamage(int damageAmount)
     {
-        currentHealth -= damageAmount;
+        currentHealth += damageAmount;
         SetHealth();
-        if (currentHealth <= 0)
+        if (currentHealth >= 50)
         {
             Death();
         }
