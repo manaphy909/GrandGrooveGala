@@ -1,5 +1,7 @@
 using System;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -39,8 +41,16 @@ public class PlayerMovement : MonoBehaviour
         return true;
     }
 
-    void BeginMove()
+    void BeginMove(Vector3 Direction)
     {
+
+        if(CheckForWalls(Direction) == false)
+        {
+
+            return;
+
+        }
+
         isMoving = true;
 
         foreach (GameObject tileObj in gridData.tiles)
@@ -85,17 +95,61 @@ public class PlayerMovement : MonoBehaviour
 
 
 
+    bool CheckForWalls(Vector3 Direction)
+    {
+
+        String targetTag = "Wall";
+
+        RaycastHit hit;
+
+        Debug.DrawRay(transform.position, Direction * 1f, Color.red, 1000);
+
+        if (Physics.Raycast(transform.position, Direction * 1f, out hit))
+        {
+
+            if (hit.collider.CompareTag(targetTag))
+            {
+
+                Debug.Log("hit wall");
+                return false;
+            }
+            else
+            {
+
+                return true;
+
+            }
+
+        }
+        else
+        {
+            return true;
+        }
+        
+
+        
+    }
+
+
+
+
     void CheckMovement()
     {
+        Vector3 Direction = Vector3.forward;
+
         if (isMoving) return;
         if (timer < 1.5f) return;
 
         Vector2Int dir = Vector2Int.zero;
 
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) dir.x += 1;
-        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)) dir.x -= 1;
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) dir.y += 1;
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) dir.y -= 1;
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) { dir.x += 1; Direction = Vector3.back; }
+        
+        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)) { dir.x -= 1; Direction = Vector3.forward; }
+
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) { dir.y += 1; Direction = Vector3.left; }
+        
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) {dir.y -= 1; Direction=Vector3.right; }
+        
 
         if (dir == Vector2Int.zero) return;
 
@@ -108,7 +162,7 @@ public class PlayerMovement : MonoBehaviour
             playerY = nextY;
             timer = 0;
 
-            BeginMove();
+            BeginMove(Direction);
         }
     }
 
@@ -137,5 +191,6 @@ public class PlayerMovement : MonoBehaviour
         timer += Time.deltaTime;
         CheckMovement();
         ApplyMovement();
+
     }
 }
