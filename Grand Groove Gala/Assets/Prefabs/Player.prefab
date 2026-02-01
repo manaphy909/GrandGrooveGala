@@ -79,7 +79,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 76725569
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 5dd83125215719d4fa48ec2dc496b31a, type: 3}
@@ -225,9 +225,11 @@ GameObject:
   - component: {fileID: 4924738865663915202}
   - component: {fileID: 1799935458803156602}
   - component: {fileID: 640072746541665118}
+  - component: {fileID: 2104230764554553869}
+  - component: {fileID: 4227146915937359103}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -240,7 +242,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7155737639072275670}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.5, y: 0, z: 2.5}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 1
@@ -271,7 +273,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!114 &-8946331405274512089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,7 +281,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7155737639072275670}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eedf7e6bb5ec42742ab5d50f6fe49daf, type: 3}
   m_Name: 
@@ -287,8 +289,10 @@ MonoBehaviour:
   playerX: 0
   playerY: 0
   yOffset: 0.59
-  grid: {fileID: 0}
+  CheckTileBool: 0
+  PlayerActiveMask: 0
   currentTile: {fileID: 0}
+  grid: {fileID: 0}
   invalidTilesParent: {fileID: 0}
   timer: 0
 --- !u!114 &7868888207174249608
@@ -318,6 +322,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthComponent
   maxHealth: 50
+  currentHealth: 0
+  Healthbar: {fileID: 0}
 --- !u!114 &1799935458803156602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,13 +331,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7155737639072275670}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 11ce3b20abe3ea2459a600b858b62cbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MaskTrackerComponent
   activeMask: 0
   MaskMat: []
+  IsPlayer: 0
   activeMaskEnum: 0
 --- !u!95 &640072746541665118
 Animator:
@@ -355,3 +362,43 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2104230764554553869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7155737639072275670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46f58b90500cc384e8d4aeee0b27fec3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerIdentity
+  activeMask: 0
+  activeMaskEnum: 0
+--- !u!114 &4227146915937359103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7155737639072275670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dea8a7b6bd7231e418d4fe1671e7a9ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovementPrime
+  playerX: 0
+  playerY: 0
+  yOffset: 0.59
+  CheckTileBool: 0
+  PlayerActiveMask: 0
+  nextX: 0
+  nextY: 0
+  RepeatDelay: 1
+  Direction: {x: 0, y: 0}
+  DirectionToMove: 
+  currentTile: {fileID: 0}
+  grid: {fileID: 0}
+  invalidTilesParent: {fileID: 0}
+  timer: 0

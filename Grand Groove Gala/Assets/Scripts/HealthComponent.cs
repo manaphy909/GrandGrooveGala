@@ -45,7 +45,7 @@ public class HealthComponent : MonoBehaviour
         {
             Death();
         }
-        Debug.Log(gameObject.name + " took " + damageAmount + " damage. Current health: " + currentHealth + " / " + maxHealth);
+        //Debug.Log(gameObject.name + " took " + damageAmount + " damage. Current health: " + currentHealth + " / " + maxHealth);
     }
 
     public void Death()

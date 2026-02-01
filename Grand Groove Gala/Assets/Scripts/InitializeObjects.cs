@@ -33,6 +33,6 @@ public class InitializeObjects : MonoBehaviour
             i++;
         }
         tiles[i].GetComponent<TileData>().character = player.GetComponent<CharacterData>();
-        player.GetComponent<PlayerMovement>().currentTile = tiles[i].GetComponent<TileData>();
+        player.GetComponent<PlayerMovementPrime>().currentTile = tiles[i].GetComponent<TileData>();
     }
 }

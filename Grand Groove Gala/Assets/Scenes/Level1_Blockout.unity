@@ -13727,6 +13727,14 @@ PrefabInstance:
       propertyPath: invalidTilesParent
       value: 
       objectReference: {fileID: 1089221441}
+    - target: {fileID: 4227146915937359103, guid: 517d01238fe793548a84ef074aab7e6f, type: 3}
+      propertyPath: grid
+      value: 
+      objectReference: {fileID: 1951259581}
+    - target: {fileID: 4227146915937359103, guid: 517d01238fe793548a84ef074aab7e6f, type: 3}
+      propertyPath: invalidTilesParent
+      value: 
+      objectReference: {fileID: 1089221441}
     - target: {fileID: 4884450680218815990, guid: 517d01238fe793548a84ef074aab7e6f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5
