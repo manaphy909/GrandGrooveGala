@@ -455,6 +455,79 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18403923}
   m_Mesh: {fileID: -3816035422516406121, guid: 54860170c229ab148a4c85bc32745b49, type: 3}
+--- !u!1001 &26091835
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1700916338138014232, guid: 28f5192b3bf50ed48ac12dd94f9abf17, type: 3}
+      propertyPath: ShapeModule.m_Scale.x
+      value: 17.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1700916338138014232, guid: 28f5192b3bf50ed48ac12dd94f9abf17, type: 3}
+      propertyPath: ShapeModule.m_Scale.y
+      value: 18.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1700916338138014232, guid: 28f5192b3bf50ed48ac12dd94f9abf17, type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 1700916338138014232, guid: 28f5192b3bf50ed48ac12dd94f9abf17, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574725854535580289, guid: 28f5192b3bf50ed48ac12dd94f9abf17, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574725854535580289, guid: 28f5192b3bf50ed48ac12dd94f9abf17, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574725854535580289, guid: 28f5192b3bf50ed48ac12dd94f9abf17, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574725854535580289, guid: 28f5192b3bf50ed48ac12dd94f9abf17, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574725854535580289, guid: 28f5192b3bf50ed48ac12dd94f9abf17, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574725854535580289, guid: 28f5192b3bf50ed48ac12dd94f9abf17, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574725854535580289, guid: 28f5192b3bf50ed48ac12dd94f9abf17, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574725854535580289, guid: 28f5192b3bf50ed48ac12dd94f9abf17, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574725854535580289, guid: 28f5192b3bf50ed48ac12dd94f9abf17, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6574725854535580289, guid: 28f5192b3bf50ed48ac12dd94f9abf17, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8326439507398249389, guid: 28f5192b3bf50ed48ac12dd94f9abf17, type: 3}
+      propertyPath: m_Name
+      value: Gold_Dust
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 28f5192b3bf50ed48ac12dd94f9abf17, type: 3}
 --- !u!1001 &26164488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25931,7 +26004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TargetCircle
   spotLight: {fileID: 1506838824}
-  fieldOfView: {fileID: 2030632849}
+  fieldOfView: {fileID: 0}
   lineRendererLogic: {fileID: 1533511313}
   pathPoints: []
   moveSpeed: 0.5
@@ -42039,3 +42112,4 @@ SceneRoots:
   - {fileID: 987642130}
   - {fileID: 892480560}
   - {fileID: 1331352808}
+  - {fileID: 26091835}
