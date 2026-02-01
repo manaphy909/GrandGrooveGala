@@ -2255,8 +2255,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.057440907, y: -0.9328053, z: 0.17205316, w: -0.31140426}
-  m_LocalPosition: {x: -5.6243668, y: 3.2676568, z: 4.9650526}
+  m_LocalRotation: {x: 0.034436833, y: 0.9441609, z: -0.31020057, w: 0.105593756}
+  m_LocalPosition: {x: 0.08577241, y: 2.7223518, z: 3.8601131}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2319,6 +2319,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraMovement
   player: {fileID: 1409183756}
+  x: 0.08577241
+  y: 2.76
+  z: 2.5
 --- !u!1001 &357258413
 PrefabInstance:
   m_ObjectHideFlags: 0

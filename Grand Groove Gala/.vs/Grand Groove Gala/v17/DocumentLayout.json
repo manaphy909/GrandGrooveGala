@@ -1,42 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\",
+  "WorkspaceRootPath": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\playeridentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|c:\\users\\isabella goossens\\documents\\github\\grandgroovegala\\grand groove gala\\assets\\scripts\\playeridentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeridentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\masktrackercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\masktrackercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\masktrackercomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|c:\\users\\isaac\\game projects\\grandgroovegala\\grand groove gala\\assets\\scripts\\tileidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\tileidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tileidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|c:\\users\\isaac\\game projects\\grandgroovegala\\grand groove gala\\assets\\scripts\\tiledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\tiledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tiledata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\healthcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\healthcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\characterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\characterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\initializeobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\initializeobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\initializeobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,28 +46,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TileIdentity.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\TileIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\TileIdentity.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TileIdentity.cs",
-              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\TileIdentity.cs",
+              "ToolTip": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\TileIdentity.cs",
               "RelativeToolTip": "Assets\\Scripts\\TileIdentity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T03:23:29.474Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-01T03:23:29.474Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlayerIdentity.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\PlayerIdentity.cs",
+              "DocumentMoniker": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\PlayerIdentity.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerIdentity.cs",
-              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\PlayerIdentity.cs",
+              "ToolTip": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\PlayerIdentity.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerIdentity.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAxwAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -76,24 +75,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MaskTrackerComponent.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\MaskTrackerComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\MaskTrackerComponent.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MaskTrackerComponent.cs",
-              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\MaskTrackerComponent.cs",
+              "ToolTip": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\MaskTrackerComponent.cs",
               "RelativeToolTip": "Assets\\Scripts\\MaskTrackerComponent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T22:39:04.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-31T22:39:04.302Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "HealthComponent.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\HealthComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\HealthComponent.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthComponent.cs",
-              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\HealthComponent.cs",
+              "ToolTip": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\HealthComponent.cs",
               "RelativeToolTip": "Assets\\Scripts\\HealthComponent.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAqwB8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -101,36 +99,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "CameraMovement.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\CameraMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\CameraMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraMovement.cs",
-              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\CameraMovement.cs",
+              "ToolTip": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\CameraMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T08:51:05.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TileData.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\TileData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TileData.cs",
-              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\TileData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TileData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-31T06:33:57.958Z",
+              "WhenOpened": "2026-01-31T08:51:05.929Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "TileData.cs",
+              "DocumentMoniker": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\TileData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TileData.cs",
+              "ToolTip": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\TileData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TileData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:33:57.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAcwCcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -138,11 +136,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CharacterData.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\CharacterData.cs",
+              "DocumentMoniker": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\CharacterData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterData.cs",
-              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\CharacterData.cs",
+              "ToolTip": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\CharacterData.cs",
               "RelativeToolTip": "Assets\\Scripts\\CharacterData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -150,11 +148,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "InitializeObjects.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\InitializeObjects.cs",
+              "DocumentMoniker": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\InitializeObjects.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InitializeObjects.cs",
-              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\InitializeObjects.cs",
+              "ToolTip": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\InitializeObjects.cs",
               "RelativeToolTip": "Assets\\Scripts\\InitializeObjects.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwB4AAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
