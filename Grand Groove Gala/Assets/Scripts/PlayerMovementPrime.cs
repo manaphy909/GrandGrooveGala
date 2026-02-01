@@ -7,10 +7,9 @@ using UnityEngine.EventSystems;
 
 public class PlayerMovementPrime : MonoBehaviour
 {
-    public bool hasKeyCard;
+    public bool hasKeyCard = false;
     public float roundsInCircle;
     private LineRendererLogic lineRendererLogic;
-    private bool isNewIteration;
 
     public int playerX;
     public int playerY;
@@ -102,6 +101,7 @@ public class PlayerMovementPrime : MonoBehaviour
         if (other.gameObject.tag == "VIPzone" && timer > 2.98)
         {
             roundsInCircle++;
+            if (roundsInCircle == 10) hasKeyCard = true;
         }
     }
 
