@@ -5,6 +5,10 @@ using UnityEngine.EventSystems;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public LineRendererLogic lineRendererLogic;
+
+    public bool hasKeyCard;
+
     public int playerX;
     public int playerY;
     [SerializeField] float yOffset = 0.59f;
@@ -207,6 +211,9 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.position = targetPosition;
             isMoving = false;
+
+            lineRendererLogic.points.Add(transform.position);
+            lineRendererLogic.DrawLineFromPoints();
         }
 
         //CheckTile();
