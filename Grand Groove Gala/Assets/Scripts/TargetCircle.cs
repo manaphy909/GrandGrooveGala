@@ -40,7 +40,7 @@ public class TargetCircle : MonoBehaviour
 
     void UpdateScale()
     {
-        transform.localScale = new Vector3(3.59f - fieldOfView.suspicion, -0.09f, 3.59f - fieldOfView.suspicion);
+        transform.localScale = new Vector3(9f - fieldOfView.suspicion, 0.09f, 9f - fieldOfView.suspicion);
         spotLight.spotAngle -= fieldOfView.suspicion / 35f;
     }
 

@@ -32,6 +32,7 @@ public class InitializeObjects : MonoBehaviour
             tiles[i].GetComponent<TileData>().character = characters[i].GetComponent<CharacterData>();
             i++;
         }
+        characters[Random.Range(0, characters.Length)].tag = "Target";
         tiles[i].GetComponent<TileData>().character = player.GetComponent<CharacterData>();
         player.GetComponent<PlayerMovementPrime>().currentTile = tiles[i].GetComponent<TileData>();
     }
