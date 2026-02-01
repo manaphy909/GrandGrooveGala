@@ -19696,6 +19696,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1143745185}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1007434590 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4417376796454388041, guid: 08d647f78189e5f40b60cd63da5a1585, type: 3}
+  m_PrefabInstance: {fileID: 2360339015093588307}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8301591b0dcbe3a4380f8c1a85c6378f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FieldOfView
 --- !u!1001 &1011838270
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25931,7 +25942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TargetCircle
   spotLight: {fileID: 1506838824}
-  fieldOfView: {fileID: 2030632849}
+  fieldOfView: {fileID: 1007434590}
   lineRendererLogic: {fileID: 1533511313}
   pathPoints: []
   moveSpeed: 0.5
