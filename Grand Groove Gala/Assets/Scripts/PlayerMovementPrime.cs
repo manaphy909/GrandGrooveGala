@@ -7,6 +7,11 @@ using UnityEngine.EventSystems;
 
 public class PlayerMovementPrime : MonoBehaviour
 {
+    public bool hasKeyCard;
+    public float roundsInCircle;
+    private LineRendererLogic lineRendererLogic;
+    private bool isNewIteration;
+
     public int playerX;
     public int playerY;
     [SerializeField] float yOffset = 0.59f;
@@ -63,6 +68,8 @@ public class PlayerMovementPrime : MonoBehaviour
 
         PlayerMask = gameObject.GetComponent<PlayerIdentity>();
 
+        lineRendererLogic = gameObject.GetComponent<LineRendererLogic>();
+
         timer = RepeatDelay;
 
         health.TimeBar.value = timer;
@@ -89,9 +96,16 @@ public class PlayerMovementPrime : MonoBehaviour
         return true;
     }
 
+    private void OnCollisionStay(Collision other)
+    {
+        if (other.gameObject.tag == "VIPzone" && timer > 2.98)
+        {
+            roundsInCircle++;
+        }
+    }
+
     void BeginMove(Vector2 Direction)
     {
-
         nextX = playerX + dir.x;
         nextY = playerY + dir.y;
 
@@ -143,7 +157,6 @@ public class PlayerMovementPrime : MonoBehaviour
                                                     currentTile.transform.position.y + yOffset,
                                                     currentTile.transform.position.z);
                         targetData.transform.position = temp;
-                        //Vector3.Lerp(targetData.transform.position, temp, Time.deltaTime * moveSpeed);
                     }
 
                     currentTile = targetTile;
@@ -153,6 +166,7 @@ public class PlayerMovementPrime : MonoBehaviour
             }
 
             print("good");
+            // increment roundsincircle if inside the circle
 
             CheckTile();
 
@@ -172,7 +186,6 @@ public class PlayerMovementPrime : MonoBehaviour
         }
 
 
-        //grid.GetComponent<CharacterMovement>().UpdateCharacterMovement();
     }
 
 
@@ -281,6 +294,9 @@ public class PlayerMovementPrime : MonoBehaviour
         {
             transform.position = targetPosition;
             isMoving = false;
+
+            lineRendererLogic.points.Add(transform.position);
+            lineRendererLogic.DrawLineFromPoints();
         }
 
         //CheckTile();
@@ -318,7 +334,6 @@ public class PlayerMovementPrime : MonoBehaviour
                 break;
 
         }
-
 
         BeginMove(Direction);
 
