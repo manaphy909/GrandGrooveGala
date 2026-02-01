@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1535.2001
     height: 860.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -272,8 +272,8 @@ MonoBehaviour:
     y: 0
     width: 419.19995
     height: 804.8
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -595,7 +595,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Env Assests/Blue Assests/BlueWalls/Materials
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -605,7 +605,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Env Assests/Blue Assests/BlueWalls/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Isabella Goossens\Documents\GitHub\GrandGrooveGala\Grand
     Groove Gala
@@ -615,18 +615,21 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 60}
     m_SelectedIDs:
-    - m_Data: 53142
+    - m_Data: 53398
     m_LastClickedID:
-      m_Data: 53142
+      m_Data: 53398
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 52768
+    - m_Data: 52866
+    - m_Data: 53234
+    - m_Data: 53388
+    - m_Data: 53392
     - m_Data: 1000000000
     - m_Data: 2147483647
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: TutorialInfo
+      m_OriginalName: TutorialInfo
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -634,10 +637,10 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 0
+        m_Data: 53248
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 10}
@@ -655,7 +658,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 52768
+    - m_Data: 52866
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -682,10 +685,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs:
-    - m_Data: -75496
-    - m_Data: -75498
-    m_LastClickedInstanceID: -75498
+    m_SelectedInstanceIDs: []
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 52376
@@ -758,24 +759,27 @@ MonoBehaviour:
     m_DynamicPanelBehavior: 0
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1023}
-      m_SelectedIDs:
-      - m_Data: -75496
-      - m_Data: -75498
+      scrollPos: {x: 0, y: 3200}
+      m_SelectedIDs: []
       m_LastClickedID:
-        m_Data: -75498
+        m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -67068
-      - m_Data: -64326
-      - m_Data: -56986
-      - m_Data: -54376
-      - m_Data: -49746
-      - m_Data: -34966
-      - m_Data: -14348
-      - m_Data: -9720
-      - m_Data: -1302
-      - m_Data: 146782
-      - m_Data: 148950
+      - m_Data: -15578
+      - m_Data: -15576
+      - m_Data: -6582
+      - m_Data: -6580
+      - m_Data: -5156
+      - m_Data: -5154
+      - m_Data: -4250
+      - m_Data: -4248
+      - m_Data: -1794
+      - m_Data: -1792
+      - m_Data: -1406
+      - m_Data: 49978
+      - m_Data: 51542
+      - m_Data: 51652
+      - m_Data: 51926
+      - m_Data: 51966
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1480,9 +1484,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -6.569351, y: -7.4375033, z: -8.44188}
+    m_Target: {x: 0.28410465, y: -5.9729667, z: -12.989438}
     speed: 2
-    m_Value: {x: -6.569351, y: -7.4375033, z: -8.44188}
+    m_Value: {x: 0.28410465, y: -5.9729667, z: -12.989438}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1528,9 +1532,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.019806024, y: 0.9248556, z: -0.37692398, w: -0.047954567}
+    m_Target: {x: 0.023942027, y: 0.96364516, z: -0.2500143, w: 0.09375812}
     speed: 2
-    m_Value: {x: -0.019804822, y: 0.9247995, z: -0.37690112, w: -0.047951657}
+    m_Value: {x: 0.023823857, y: 0.96371186, z: -0.24879768, w: 0.09376412}
   m_Size:
     m_Target: 10
     speed: 2
