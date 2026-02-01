@@ -7,9 +7,13 @@ public class UImanager : MonoBehaviour
 
     public RawImage[] ArrowArray;
 
+    public Image[] MaskImages;
+
     PlayerMovementPrime PlayerRef;
 
     public RawImage MyImage;
+
+    public Image myimage;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -44,6 +48,13 @@ public class UImanager : MonoBehaviour
         if ((PlayerRef.DirectionToMoveY == "Left") && (PlayerRef.DirectionToMoveX == "Down")) { MyImage = ArrowArray[5].GetComponent<RawImage>(); MyImage.color = Color.red; } else { ArrowArray[5].GetComponent<RawImage>().color = Color.white; }
 
         if ((PlayerRef.DirectionToMoveX == "Down") && (PlayerRef.DirectionToMoveY == "Right")) { MyImage = ArrowArray[3].GetComponent<RawImage>(); MyImage.color = Color.red; } else { ArrowArray[3].GetComponent<RawImage>().color = Color.white; }
+
+        
+        if(PlayerRef.PlayerActiveMask == 0) { myimage = MaskImages[0].GetComponent<Image>();myimage.color = Color.red;} else { MaskImages[0].GetComponent<Image>().color = Color.white; }
+        if(PlayerRef.PlayerActiveMask == 1) { myimage = MaskImages[2].GetComponent<Image>();myimage.color = Color.red;} else { MaskImages[2].GetComponent<Image>().color = Color.white; }
+        if (PlayerRef.PlayerActiveMask == 2) { myimage = MaskImages[1].GetComponent<Image>();myimage.color = Color.red;} else { MaskImages[1].GetComponent<Image>().color = Color.white; }
+        if (PlayerRef.PlayerActiveMask == 3) { myimage = MaskImages[3].GetComponent<Image>();myimage.color = Color.red;} else { MaskImages[3].GetComponent<Image>().color = Color.white; }
+
 
     }
 
