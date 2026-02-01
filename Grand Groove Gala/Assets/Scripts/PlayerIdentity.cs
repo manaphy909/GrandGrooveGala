@@ -14,9 +14,9 @@ public class PlayerIdentity : MonoBehaviour
         activeMask = UnityEngine.Random.Range(0, 4);
         UnityEngine.Debug.Log(activeMask);
 
-        MaskSelection();
+        SetActiveMask();
     }
-    private void MaskSelection()
+    public void SetActiveMask()
     {
         activeMaskEnum = (Mask)activeMask;
         switch (activeMaskEnum)
@@ -33,5 +33,12 @@ public class PlayerIdentity : MonoBehaviour
             case Mask.Sin:
                 break;
         }
+
+        print(activeMaskEnum);
+
+
     }
+
+
+
 }

@@ -11,19 +11,23 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isMoving = false;
     private Vector3 targetPosition;
-    private TileData targetTile;
     private float moveSpeed = 10f;
-
     public bool CheckTileBool;
-
     public int PlayerActiveMask;
+
+
+    public TileData currentTile;
 
     private HealthComponent health;
 
-    public GameObject grid;
-    private InitializeObjects gridData;
-    public TileData currentTile;
+    private TileData targetTile;
 
+    private PlayerIdentity PlayerMask;
+
+
+    private InitializeObjects gridData;
+
+    public GameObject grid;
     private GameObject[] invalidTilesList;
     public GameObject invalidTilesParent;
 
@@ -151,13 +155,13 @@ public class PlayerMovement : MonoBehaviour
 
         Vector2Int dir = Vector2Int.zero;
 
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)) { dir.x += 1; Direction = Vector3.back; }
+        if (Input.GetKey(KeyCode.W)) { dir.x += 1; Direction = Vector3.back; }
         
-        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)) { dir.x -= 1; Direction = Vector3.forward; }
+        if (Input.GetKey(KeyCode.S)) { dir.x -= 1; Direction = Vector3.forward; }
 
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) { dir.y += 1; Direction = Vector3.left; }
+        if (Input.GetKey(KeyCode.D)) { dir.y += 1; Direction = Vector3.left; }
         
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) {dir.y -= 1; Direction=Vector3.right; }
+        if (Input.GetKey(KeyCode.A)) {dir.y -= 1; Direction=Vector3.right; }
         
 
         if (dir == Vector2Int.zero) return;
@@ -175,6 +179,22 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+
+
+
+    void CheckMaskChange()
+    {
+        if (Input.GetKey(KeyCode.UpArrow)) { PlayerMask.activeMask = 0;  PlayerMask.SetActiveMask(); PlayerActiveMask = 0; }
+
+        if(Input.GetKey(KeyCode.DownArrow)){ PlayerMask.activeMask = 1; PlayerMask.SetActiveMask(); PlayerActiveMask = 1; }
+
+        if (Input.GetKey(KeyCode.LeftArrow)){ PlayerMask.activeMask = 2; PlayerMask.SetActiveMask(); PlayerActiveMask = 2; }
+
+        if (Input.GetKey(KeyCode.RightArrow)){ PlayerMask.activeMask = 3; PlayerMask.SetActiveMask(); PlayerActiveMask = 3; }
+
+
+
+    }
 
     void ApplyMovement()
     {
@@ -199,6 +219,8 @@ public class PlayerMovement : MonoBehaviour
         gridData = grid.GetComponent<InitializeObjects>();
 
         health = gameObject.GetComponent<HealthComponent>();
+
+        PlayerMask = gameObject.GetComponent<PlayerIdentity>();
     }
 
     void Update()
@@ -206,6 +228,7 @@ public class PlayerMovement : MonoBehaviour
         timer += Time.deltaTime;
         CheckMovement();
         ApplyMovement();
+        CheckMaskChange();
 
     }
 
