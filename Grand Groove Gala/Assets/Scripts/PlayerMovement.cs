@@ -91,6 +91,7 @@ public class PlayerMovement : MonoBehaviour
                 break;
             }
         }
+        grid.GetComponent<CharacterMovement>().UpdateCharacterMovement();
     }
 
 

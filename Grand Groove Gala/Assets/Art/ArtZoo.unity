@@ -179,6 +179,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4716346910575628323, guid: 70a59403faf02ea4f923252cd1f3cec0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f40990028c6eaf342ba4650e3df9dad2, type: 2}
     - target: {fileID: 919132149155446097, guid: 70a59403faf02ea4f923252cd1f3cec0, type: 3}
       propertyPath: m_Name
       value: PillarForWalls
@@ -566,6 +570,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4716346910575628323, guid: 70a59403faf02ea4f923252cd1f3cec0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: f40990028c6eaf342ba4650e3df9dad2, type: 2}
     - target: {fileID: 919132149155446097, guid: 70a59403faf02ea4f923252cd1f3cec0, type: 3}
       propertyPath: m_Name
       value: PillarForWalls (1)
@@ -1199,7 +1207,7 @@ PrefabInstance:
     - target: {fileID: -4899339412321261115, guid: 716fb51f3ffc10c4eaf0e2781d91d4d2, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 252628dcf31acbc40be62f5219ab1688, type: 2}
+      objectReference: {fileID: 2100000, guid: dec06aa947f4d4244ace0664aa18f728, type: 2}
     - target: {fileID: 919132149155446097, guid: 716fb51f3ffc10c4eaf0e2781d91d4d2, type: 3}
       propertyPath: m_Name
       value: WoodFloorTileBella

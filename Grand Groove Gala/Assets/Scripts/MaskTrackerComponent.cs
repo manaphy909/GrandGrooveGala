@@ -17,7 +17,7 @@ public class MaskTrackerComponent : MonoBehaviour
     void Start()
     {
         activeMask = UnityEngine.Random.Range(0, 4);
-        UnityEngine.Debug.Log(activeMask);
+        //UnityEngine.Debug.Log(activeMask);
 
         Rend = GetComponent<MeshRenderer>();
 
