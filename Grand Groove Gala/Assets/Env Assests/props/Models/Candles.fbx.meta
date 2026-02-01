@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 99bf72e02a884074b9e9a4209d526e6a
+guid: 4e667da46fefe9243b432b825dc43946
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: VIPEntry
-    second: {fileID: 2100000, guid: 4bc87e5df1ec44f4ab071e8e7166f47f, type: 2}
+      name: standardSurface1
+    second: {fileID: 2100000, guid: 47579a3c23722574e93a5e72d081d598, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
