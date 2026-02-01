@@ -1,16 +1,37 @@
+using System;
+using System.Diagnostics;
 using UnityEngine;
 
 public class PlayerIdentity : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public int activeMask;
+    public enum Mask
+    { Sloth, Lust, Wrath, Sin }
 
-    // Update is called once per frame
-    void Update()
+    public Mask activeMaskEnum;
+    private void Awake()
     {
-        
+        activeMask = UnityEngine.Random.Range(0, 4);
+        UnityEngine.Debug.Log(activeMask);
+
+        MaskSelection();
+    }
+    private void MaskSelection()
+    {
+        activeMaskEnum = (Mask)activeMask;
+        switch (activeMaskEnum)
+        {
+            case Mask.Sloth:
+                break;
+
+            case Mask.Lust:
+                break;
+
+            case Mask.Wrath:
+                break;
+
+            case Mask.Sin:
+                break;
+        }
     }
 }
