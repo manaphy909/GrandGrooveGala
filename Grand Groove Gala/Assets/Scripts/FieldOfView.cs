@@ -8,6 +8,8 @@ public class FieldOfView : MonoBehaviour
 {
     public float suspicion = 0;
 
+    public GameObject player;
+
     public float viewRadius;
     [Range(0, 360)]
     public float viewAngle;

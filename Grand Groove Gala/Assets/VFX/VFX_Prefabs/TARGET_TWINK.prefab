@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5496198242460526002}
   - component: {fileID: 4888384355003932716}
   m_Layer: 0
-  m_Name: Mask_Change_Twinkle_Yellow
+  m_Name: TARGET_TWINK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4791,7 +4791,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6cf736aa53140274ba30e6c5e1fbd981, type: 2}
+  - {fileID: 2100000, guid: 3865f6c9e7dbdc74999e30b3c0c3266c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
