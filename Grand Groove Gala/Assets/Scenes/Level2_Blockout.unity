@@ -19340,6 +19340,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4376950329816071469, guid: 08d647f78189e5f40b60cd63da5a1585, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 1f0012a9393168246bdce1bacef50162, type: 3}
     - target: {fileID: 4417376796454388041, guid: 08d647f78189e5f40b60cd63da5a1585, type: 3}
       propertyPath: viewRadius
       value: 1.05
@@ -33380,6 +33384,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4376950329816071469, guid: 08d647f78189e5f40b60cd63da5a1585, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 53e33e34ad3526f468ce50a9fef78ed9, type: 3}
     - target: {fileID: 4417376796454388041, guid: 08d647f78189e5f40b60cd63da5a1585, type: 3}
       propertyPath: viewRadius
       value: 1.05
@@ -42353,6 +42361,10 @@ PrefabInstance:
       propertyPath: invalidTilesParent
       value: 
       objectReference: {fileID: 1089221441}
+    - target: {fileID: 4328644686028923901, guid: 517d01238fe793548a84ef074aab7e6f, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4476540618509525666, guid: 517d01238fe793548a84ef074aab7e6f, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
