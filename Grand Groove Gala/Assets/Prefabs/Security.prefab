@@ -85,15 +85,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 997430239315509874}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85d21f4ac10db5844943dad97265dace, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterSelect
   charactersprite: {fileID: 5590989405548926395}
-  characters:
-  - {fileID: 21300000, guid: d7af626796b994e40a1676f2f930be81, type: 3}
-  - {fileID: 21300000, guid: 1cd091ea2b51d844cb9a5e31adeaa050, type: 3}
+  characters: []
 --- !u!95 &7539545363566574224
 Animator:
   serializedVersion: 7
