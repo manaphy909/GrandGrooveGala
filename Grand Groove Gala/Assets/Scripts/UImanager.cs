@@ -7,6 +7,8 @@ public class UImanager : MonoBehaviour
 
     public RawImage[] ArrowArray;
 
+    public SpriteRenderer PlayerMaskRender;
+
     public Image[] MaskImages;
 
     PlayerMovementPrime PlayerRef;
@@ -17,11 +19,20 @@ public class UImanager : MonoBehaviour
 
     public Image myimage;
 
+
+    public Sprite Wrathsprite;
+
+    public Sprite Slothsprite;
+
+    public Sprite Lustsprite;
+
+    public Sprite Cowsprite;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
 
         PlayerRef = gameObject.GetComponent<PlayerMovementPrime>();
+
 
         PlayerIdentity = gameObject.GetComponent<PlayerIdentity>();
 
@@ -58,7 +69,10 @@ public class UImanager : MonoBehaviour
         if (PlayerIdentity.activeMaskEnum == MaskTypes.Wrath) { myimage = MaskImages[3].GetComponent<Image>();myimage.color = Color.red;} else { MaskImages[3].GetComponent<Image>().color = Color.white;}
         if (PlayerIdentity.activeMaskEnum == MaskTypes.Coward) { myimage = MaskImages[2].GetComponent<Image>();myimage.color = Color.red;} else { MaskImages[2].GetComponent<Image>().color = Color.white;}
 
-
+        if (PlayerIdentity.activeMaskEnum == MaskTypes.Sloth) { PlayerMaskRender.sprite = Slothsprite; }
+        if (PlayerIdentity.activeMaskEnum == MaskTypes.Wrath) { PlayerMaskRender.sprite = Wrathsprite; }
+        if (PlayerIdentity.activeMaskEnum == MaskTypes.Lust) { PlayerMaskRender.sprite = Lustsprite; }
+        if (PlayerIdentity.activeMaskEnum == MaskTypes.Coward) { PlayerMaskRender.sprite = Cowsprite;}
     }
 
 }

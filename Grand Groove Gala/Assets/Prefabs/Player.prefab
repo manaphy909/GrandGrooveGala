@@ -1048,6 +1048,7 @@ MonoBehaviour:
   - {fileID: 395416691256530492}
   - {fileID: 3965232107601156166}
   - {fileID: 5476049029343406296}
+  PlayerMaskRender: {fileID: 8152182674096232062}
   MaskImages:
   - {fileID: 5736085595940311053}
   - {fileID: 852783798042984675}
@@ -1055,6 +1056,10 @@ MonoBehaviour:
   - {fileID: 7104847168801404197}
   MyImage: {fileID: 0}
   myimage: {fileID: 0}
+  Wrathsprite: {fileID: 21300000, guid: ee28328d8d722084888d1afb1d9382f3, type: 3}
+  Slothsprite: {fileID: 21300000, guid: 141cad0f9316f69459059d0e5d738539, type: 3}
+  Lustsprite: {fileID: 21300000, guid: 5dd83125215719d4fa48ec2dc496b31a, type: 3}
+  Cowsprite: {fileID: 21300000, guid: ede62c7c24e9a044eb64d6ba20d7771d, type: 3}
 --- !u!120 &3116443631922776412
 LineRenderer:
   serializedVersion: 3
