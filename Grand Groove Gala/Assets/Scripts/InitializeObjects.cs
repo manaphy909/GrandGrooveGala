@@ -2,6 +2,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 
 public class InitializeObjects : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class InitializeObjects : MonoBehaviour
         tiles = new GameObject[ground.transform.childCount];
         foreach (Transform child in ground.transform)
         {
+            child.gameObject.name = child.gameObject.name + i;
             tiles[i] = child.gameObject;
             if (tiles[i].gameObject.tag == "Door") tiles[i].GetComponent<TileData>().isDoor = true;
             i++;
@@ -25,6 +27,7 @@ public class InitializeObjects : MonoBehaviour
         GameObject characterList = transform.Find("Characters").gameObject;
         i = 0;
         characters = new GameObject[characterList.transform.childCount];
+        print(characterList.transform.childCount);
         foreach (Transform child in characterList.transform)
         {
             child.gameObject.name = child.gameObject.name + i;
@@ -33,7 +36,7 @@ public class InitializeObjects : MonoBehaviour
             tiles[i].GetComponent<TileData>().character = characters[i].GetComponent<CharacterData>();
             i++;
         }
-        characters[Random.Range(0, characters.Length)].tag = "Target";
+        if(SceneManager.GetActiveScene().name != "Level3_Blockout") characters[Random.Range(0, characters.Length)].tag = "Target";
         tiles[i].GetComponent<TileData>().character = player.GetComponent<CharacterData>();
         player.GetComponent<PlayerMovementPrime>().currentTile = tiles[i].GetComponent<TileData>();
     }
