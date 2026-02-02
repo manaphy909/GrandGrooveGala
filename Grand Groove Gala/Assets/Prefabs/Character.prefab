@@ -223,7 +223,8 @@ GameObject:
   - component: {fileID: -6350289261359358326}
   - component: {fileID: 2316910687311216665}
   - component: {fileID: 4019492210883844625}
-  - component: {fileID: 7331251624637106100}
+  - component: {fileID: -8614250905077853878}
+  - component: {fileID: 4184196848739306367}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -323,17 +324,42 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &7331251624637106100
+--- !u!54 &-8614250905077853878
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3087184394351645983}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
+--- !u!114 &4184196848739306367
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3087184394351645983}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b57739941e9bc1e4c92c4ca5759f76df, type: 3}
+  m_Script: {fileID: 11500000, guid: a4333f01457ea9d45847e3e6b2eb1900, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GridCharacter
-  gridPosition: {x: 0, y: 0}
-  moveSpeed: 5
+  m_EditorClassIdentifier: '::'

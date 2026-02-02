@@ -10105,6 +10105,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile
       objectReference: {fileID: 0}
+    - target: {fileID: 5761854918671038490, guid: c43d5d52921275b489564b0fd830082f, type: 3}
+      propertyPath: m_TagString
+      value: Door
+      objectReference: {fileID: 0}
     - target: {fileID: 7640482257103751206, guid: c43d5d52921275b489564b0fd830082f, type: 3}
       propertyPath: m_LocalScale.y
       value: 1
@@ -14400,6 +14404,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476540618509525666, guid: 517d01238fe793548a84ef074aab7e6f, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4648131714236474507, guid: 517d01238fe793548a84ef074aab7e6f, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4884450680218815990, guid: 517d01238fe793548a84ef074aab7e6f, type: 3}

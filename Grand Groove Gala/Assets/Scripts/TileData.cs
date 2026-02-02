@@ -10,6 +10,7 @@ public class TileData : MonoBehaviour
     public int x;
     public int y;
     public CharacterData character;
+    public bool isDoor;
 
     public TileData(Vector2Int pos)
     {

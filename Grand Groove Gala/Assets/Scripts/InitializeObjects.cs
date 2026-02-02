@@ -18,6 +18,7 @@ public class InitializeObjects : MonoBehaviour
         foreach (Transform child in ground.transform)
         {
             tiles[i] = child.gameObject;
+            if (tiles[i].gameObject.tag == "Door") tiles[i].GetComponent<TileData>().isDoor = true;
             i++;
         }
 
