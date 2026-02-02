@@ -1,12 +1,18 @@
 using System;
 using System.Threading;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class PlayerMovementPrime : MonoBehaviour
 {
+    public bool hasKeyCard = false;
+    public float roundsInCircle;
+    private LineRendererLogic lineRendererLogic;
+
     public int playerX;
     public int playerY;
     [SerializeField] float yOffset = 0.59f;
@@ -15,7 +21,8 @@ public class PlayerMovementPrime : MonoBehaviour
     private Vector3 targetPosition;
     private float moveSpeed = 10f;
     public bool CheckTileBool;
-    public int PlayerActiveMask;
+
+    public Mask PlayerActiveMask;
 
     public int nextX;
     public int nextY;
@@ -49,8 +56,6 @@ public class PlayerMovementPrime : MonoBehaviour
 
     public float timer;
 
-
-
     public void Start()
     {
         StartDelay = 3.0f;
@@ -63,6 +68,8 @@ public class PlayerMovementPrime : MonoBehaviour
         gridData = grid.GetComponent<InitializeObjects>();
 
         PlayerMask = gameObject.GetComponent<PlayerIdentity>();
+
+        lineRendererLogic = gameObject.GetComponent<LineRendererLogic>();
 
         timer = RepeatDelay;
 
@@ -90,9 +97,17 @@ public class PlayerMovementPrime : MonoBehaviour
         return true;
     }
 
+    private void OnCollisionStay(Collision other)
+    {
+        if (other.gameObject.tag == "VIPzone" && timer > 2.98)
+        {
+            roundsInCircle++;
+            if (roundsInCircle == 10) hasKeyCard = true;
+        }
+    }
+
     void BeginMove(Vector2 Direction)
     {
-
         nextX = playerX + dir.x;
         nextY = playerY + dir.y;
 
@@ -144,7 +159,6 @@ public class PlayerMovementPrime : MonoBehaviour
                                                     currentTile.transform.position.y + yOffset,
                                                     currentTile.transform.position.z);
                         targetData.transform.position = temp;
-                        //Vector3.Lerp(targetData.transform.position, temp, Time.deltaTime * moveSpeed);
                     }
 
                     currentTile = targetTile;
@@ -154,6 +168,7 @@ public class PlayerMovementPrime : MonoBehaviour
             }
 
             print("good");
+            // increment roundsincircle if inside the circle
 
             CheckTile();
 
@@ -173,7 +188,6 @@ public class PlayerMovementPrime : MonoBehaviour
         }
 
 
-        //grid.GetComponent<CharacterMovement>().UpdateCharacterMovement();
     }
 
 
@@ -259,15 +273,18 @@ public class PlayerMovementPrime : MonoBehaviour
 
     void CheckMaskChange()
     {
-        if (Input.GetKey(KeyCode.UpArrow)) { PlayerMask.activeMask = 0; PlayerMask.SetActiveMask(); PlayerActiveMask = 0; }
-
-        if (Input.GetKey(KeyCode.DownArrow)) { PlayerMask.activeMask = 1; PlayerMask.SetActiveMask(); PlayerActiveMask = 1; }
-
-        if (Input.GetKey(KeyCode.LeftArrow)) { PlayerMask.activeMask = 2; PlayerMask.SetActiveMask(); PlayerActiveMask = 2; }
-
-        if (Input.GetKey(KeyCode.RightArrow)) { PlayerMask.activeMask = 3; PlayerMask.SetActiveMask(); PlayerActiveMask = 3; }
+        if (Input.GetKeyDown(KeyCode.UpArrow)) 
+        { 
+            PlayerMask.activeMaskEnum = MaskTypes.Lust; 
+            PlayerMask.SetActiveMask();
+        }
 
 
+        if (Input.GetKeyDown(KeyCode.DownArrow)) { PlayerMask.activeMaskEnum = MaskTypes.Sloth; PlayerMask.SetActiveMask();}
+
+        if (Input.GetKeyDown(KeyCode.LeftArrow)) { PlayerMask.activeMaskEnum = MaskTypes.Coward; PlayerMask.SetActiveMask();}
+
+        if (Input.GetKeyDown(KeyCode.RightArrow)) { PlayerMask.activeMaskEnum = MaskTypes.Wrath; PlayerMask.SetActiveMask();}
 
     }
 
@@ -282,6 +299,9 @@ public class PlayerMovementPrime : MonoBehaviour
         {
             transform.position = targetPosition;
             isMoving = false;
+
+            lineRendererLogic.points.Add(transform.position);
+            lineRendererLogic.DrawLineFromPoints();
         }
 
         //CheckTile();
@@ -320,7 +340,6 @@ public class PlayerMovementPrime : MonoBehaviour
 
         }
 
-
         BeginMove(Direction);
 
 
@@ -351,7 +370,7 @@ public class PlayerMovementPrime : MonoBehaviour
     {
         MaskTrackerComponent TileMask = targetTile.GetComponent<MaskTrackerComponent>();
 
-        if (TileMask.activeMask != PlayerActiveMask)
+        if (TileMask.activeMaskEnum != PlayerMask.activeMaskEnum)
         {
 
             health.TakeDamage(10);

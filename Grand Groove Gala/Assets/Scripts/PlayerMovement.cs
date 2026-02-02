@@ -186,7 +186,7 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-    void CheckMaskChange()
+    /*void CheckMaskChange()
     {
         if (Input.GetKey(KeyCode.UpArrow)) { PlayerMask.activeMask = 0;  PlayerMask.SetActiveMask(); PlayerActiveMask = 0; }
 
@@ -198,7 +198,7 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-    }
+    }*/
 
     void ApplyMovement()
     {
@@ -235,7 +235,7 @@ public class PlayerMovement : MonoBehaviour
         timer += Time.deltaTime;
         CheckMovement();
         ApplyMovement();
-        CheckMaskChange();
+        //CheckMaskChange();
 
     }
 
