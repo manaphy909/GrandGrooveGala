@@ -38262,6 +38262,10 @@ PrefabInstance:
       propertyPath: viewRadius
       value: 1.05
       objectReference: {fileID: 0}
+    - target: {fileID: 7539545363566574224, guid: 08d647f78189e5f40b60cd63da5a1585, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
