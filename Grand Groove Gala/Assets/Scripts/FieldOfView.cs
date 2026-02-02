@@ -65,4 +65,12 @@ public class FieldOfView : MonoBehaviour
 
         return new Vector3(Mathf.Sin(angleInDegrees * Mathf.Deg2Rad), 0, Mathf.Cos(angleInDegrees * Mathf.Deg2Rad));
     }
+
+    private void Update()
+    {
+        if (player.GetComponent<PlayerMovementPrime>().timer > 2.98)
+        {
+            gameObject.transform.rotation = Quaternion.Euler(0f, 360 / Random.Range(1, 9), 0f);
+        }
+    }
 }

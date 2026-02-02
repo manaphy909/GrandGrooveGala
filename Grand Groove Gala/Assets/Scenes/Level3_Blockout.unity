@@ -8935,6 +8935,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4417376796454388041, guid: 08d647f78189e5f40b60cd63da5a1585, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1533511312}
+    - target: {fileID: 4417376796454388041, guid: 08d647f78189e5f40b60cd63da5a1585, type: 3}
       propertyPath: viewRadius
       value: 1.05
       objectReference: {fileID: 0}
@@ -29308,6 +29312,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4417376796454388041, guid: 08d647f78189e5f40b60cd63da5a1585, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1533511312}
+    - target: {fileID: 4417376796454388041, guid: 08d647f78189e5f40b60cd63da5a1585, type: 3}
       propertyPath: viewRadius
       value: 1.05
       objectReference: {fileID: 0}
@@ -33349,6 +33357,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4417376796454388041, guid: 08d647f78189e5f40b60cd63da5a1585, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1533511312}
     - target: {fileID: 4417376796454388041, guid: 08d647f78189e5f40b60cd63da5a1585, type: 3}
       propertyPath: viewRadius
       value: 1.05
@@ -39109,6 +39121,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4417376796454388041, guid: 08d647f78189e5f40b60cd63da5a1585, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1533511312}
+    - target: {fileID: 4417376796454388041, guid: 08d647f78189e5f40b60cd63da5a1585, type: 3}
       propertyPath: viewRadius
       value: 1.05
       objectReference: {fileID: 0}
@@ -43141,6 +43157,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4417376796454388041, guid: 08d647f78189e5f40b60cd63da5a1585, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1533511312}
     - target: {fileID: 4417376796454388041, guid: 08d647f78189e5f40b60cd63da5a1585, type: 3}
       propertyPath: viewRadius
       value: 1.05
