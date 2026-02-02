@@ -5,6 +5,7 @@ using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerMovementPrime : MonoBehaviour
@@ -12,6 +13,8 @@ public class PlayerMovementPrime : MonoBehaviour
     public bool hasKeyCard = false;
     public float roundsInCircle;
     private LineRendererLogic lineRendererLogic;
+
+    public GameObject keycardText;
 
     public int playerX;
     public int playerY;
@@ -104,6 +107,8 @@ public class PlayerMovementPrime : MonoBehaviour
             roundsInCircle++;
             if (roundsInCircle == 10) hasKeyCard = true;
         }
+
+
     }
 
     void BeginMove(Vector2 Direction)
@@ -134,6 +139,7 @@ public class PlayerMovementPrime : MonoBehaviour
                 TileData tile = tileObj.GetComponent<TileData>();
                 if (tile.x == playerX && tile.y == playerY)
                 {
+                    if (tile.isDoor) SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                     targetTile = tile;
 
                     targetPosition = new Vector3(
@@ -241,13 +247,13 @@ public class PlayerMovementPrime : MonoBehaviour
         Vector2Int dir = Vector2Int.zero;
 
 
-        if (Input.GetKeyDown(KeyCode.W)) { /*dir.x = 1;*/ DirectionToMoveX = "Up"; } //nextX = playerX + dir.x; } //Direction = Vector3.back; }
+        if (Input.GetKey(KeyCode.W)) { /*dir.x = 1;*/ DirectionToMoveX = "Up"; } //nextX = playerX + dir.x; } //Direction = Vector3.back; }
 
-        if (Input.GetKeyDown(KeyCode.S)) { /*dir.x = -1;*/ DirectionToMoveX = "Down";} //nextX = playerX + dir.x; }//= Vector3.forward; }
+        if (Input.GetKey(KeyCode.S)) { /*dir.x = -1;*/ DirectionToMoveX = "Down";} //nextX = playerX + dir.x; }//= Vector3.forward; }
 
-        if (Input.GetKeyDown(KeyCode.D)) { /*dir.y = 1;*/ DirectionToMoveY = "Left"; }//nextY = playerY + dir.y; }
+        if (Input.GetKey(KeyCode.D)) { /*dir.y = 1;*/ DirectionToMoveY = "Left"; }//nextY = playerY + dir.y; }
 
-        if (Input.GetKeyDown(KeyCode.A)) { /*dir.y = -1;*/ DirectionToMoveY = "Right"; } //nextY = playerY + dir.y; }
+        if (Input.GetKey(KeyCode.A)) { /*dir.y = -1;*/ DirectionToMoveY = "Right"; } //nextY = playerY + dir.y; }
 
 
         if (dir == Vector2Int.zero) return;
@@ -362,6 +368,8 @@ public class PlayerMovementPrime : MonoBehaviour
         {
             timer = RepeatDelay;
         }
+
+        if (hasKeyCard && !keycardText.activeSelf) keycardText.SetActive(true);
 
     }
 
