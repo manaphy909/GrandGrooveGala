@@ -1,46 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\",
+  "WorkspaceRootPath": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|c:\\users\\isaac\\game projects\\grandgroovegala\\grand groove gala\\assets\\scripts\\targetcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\targetcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|c:\\users\\isaac\\game projects\\grandgroovegala\\grand groove gala\\assets\\scripts\\healthcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\winningscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\winningscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\uiscripts\\loadscenebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|c:\\users\\isabella goossens\\documents\\github\\grandgroovegala\\grand groove gala\\assets\\scripts\\uiscripts\\loadscenebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\loadscenebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\characterselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\characterselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\fieldofview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fieldofview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\uiscripts\\buttonclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\buttonclick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\uiscripts\\quit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\quit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\utdscripts\\trueplayermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utdscripts\\trueplayermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,124 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TargetCircle.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\TargetCircle.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TargetCircle.cs",
-              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\TargetCircle.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TargetCircle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T00:18:08.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HealthComponent.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\HealthComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HealthComponent.cs",
-              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\HealthComponent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HealthComponent.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAcwD8AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T23:38:16.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WINNINGSCRIPT.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\WINNINGSCRIPT.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\WINNINGSCRIPT.cs",
-              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\WINNINGSCRIPT.cs",
-              "RelativeToolTip": "Assets\\Scripts\\WINNINGSCRIPT.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T21:58:40.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CharacterSelect.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\CharacterSelect.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CharacterSelect.cs",
-              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\CharacterSelect.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CharacterSelect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T21:53:40.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FieldOfView.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\FieldOfView.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\FieldOfView.cs",
-              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\FieldOfView.cs",
-              "RelativeToolTip": "Assets\\Scripts\\FieldOfView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T20:29:30.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ButtonClick.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\UIScripts\\ButtonClick.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UIScripts\\ButtonClick.cs",
-              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\UIScripts\\ButtonClick.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UIScripts\\ButtonClick.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T18:05:04.943Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "LoadSceneButton.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\UIScripts\\LoadSceneButton.cs",
+              "DocumentMoniker": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\UIScripts\\LoadSceneButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIScripts\\LoadSceneButton.cs",
-              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\UIScripts\\LoadSceneButton.cs",
+              "ToolTip": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\UIScripts\\LoadSceneButton.cs",
               "RelativeToolTip": "Assets\\Scripts\\UIScripts\\LoadSceneButton.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T21:36:34.994Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Quit.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\UIScripts\\Quit.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UIScripts\\Quit.cs",
-              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\UIScripts\\Quit.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UIScripts\\Quit.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwvxkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T21:29:54.848Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TruePlayerMove.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\UTDscripts\\TruePlayerMove.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UTDscripts\\TruePlayerMove.cs",
-              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\UTDscripts\\TruePlayerMove.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UTDscripts\\TruePlayerMove.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T21:29:53.62Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALNSURBVDhP7ZNNSBRhGMf/7zuz66gzuequXwgKm\u002BtHkIibdEgEDe1QCCEEKaKXhE75QXnIUjwJ5uIhkAiDEDvkQVTELQ8aHlTm4iorrhqLlrq6m7vtau7OzE6nERU8RTd/pwee//Pjgfd9gCv\u002BFUYrVjwrfMWjimRdsU6QbkuCsdwo5N/PF0pqSvTOcecfAPD7/Yl8GZ/ouu7SB2YC4ba2NtNWwdY15aaCg9mDCABQTRg5jjSBgSjrZZGlrChHZZFQIrIMa9MyChQbS1mRYzlbKBQyhqPhKR10YpgJN2kZAgAOt6PDvmGvW9pZsnAMh4LUAvAxPOSojLAcnmgsbqxXoNj65/rvzW7OproP3R6O5RxFmUWl6wfr3OHxoYsSOrTxaqObAsD8j/lbbp/boqoqqixVocKMwjdFGUVdOcacrjQ\u002B7VNCQoIUVaPL6UJ6wMSbQAgJxOnjHHmmPEmIEQCCHQCb2paoeV8z9vjDY7VrossTDAY/\u002Bv3\u002BpNPmGXy/fWM9X3pUc7d5fD\u002B0n\u002B4L\u002BH42DDWo5m5zp5ahALDmXYOe1cMQZ1gUBKHeYDD8OitSVZUGg8EUb8jLHUWOABXcwNxAiifoYSJKBASEz3ydmXQqlBUZAMBS9qznFO0B\u002Br71lY44RiBFpTuD84P22uFao7gtQokqTziWs0ETZidm40Q\u002BgWPPcdEFAIiPjw9AxYvqG9WOMnMZWMouW0yW5\u002B3l7YFcUy4ooROEkLcAwAJAZV4lnHtOuPZdlubPzZ2VeZXg9Ty8IS92g7suSukwgK8\u002Bv8\u002B4tLOUS0Fd9qf2Ma/fa5pcnRRAMLP\u002Bcn0R2rdZ\u002BL7QMeWcqlvxrFiS4pKQn5KPWF0spKiEiByZaLnb8uDC0pdCtGJ6dbrV7XO3ji6PYjuwDYYyMCebkZWYNd37sLf\u002B/NjlnF4KB\u002B4dACuVqZUSalVV1cqojFWRlGfnR6743/wF2Ocp0aqGDqUAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-02-01T21:29:53.803Z"
+              "WhenOpened": "2026-02-02T01:35:18.212Z",
+              "EditorCaption": ""
             }
           ]
         }
