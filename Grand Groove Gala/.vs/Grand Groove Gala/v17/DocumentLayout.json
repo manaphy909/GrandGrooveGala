@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\",
+  "WorkspaceRootPath": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|c:\\users\\isabella goossens\\documents\\github\\grandgroovegala\\grand groove gala\\assets\\scripts\\uiscripts\\loadscenebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|c:\\users\\isaac\\game projects\\grandgroovegala\\grand groove gala\\assets\\scripts\\playermovementprime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovementprime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|c:\\users\\isaac\\game projects\\grandgroovegala\\grand groove gala\\assets\\scripts\\uiscripts\\loadscenebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A1C7AB2-7347-73AD-203E-FD69C05E3E04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiscripts\\loadscenebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,10 +23,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerMovementPrime.cs",
+              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\PlayerMovementPrime.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovementPrime.cs",
+              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\PlayerMovementPrime.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovementPrime.cs",
+              "ViewState": "AgIAAFoBAAAAAAAAAAAowGQBAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T01:55:25.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LoadSceneButton.cs",
-              "DocumentMoniker": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\UIScripts\\LoadSceneButton.cs",
+              "DocumentMoniker": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\UIScripts\\LoadSceneButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIScripts\\LoadSceneButton.cs",
-              "ToolTip": "C:\\Users\\Isabella Goossens\\Documents\\GitHub\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\UIScripts\\LoadSceneButton.cs",
+              "ToolTip": "C:\\Users\\isaac\\Game Projects\\GrandGrooveGala\\Grand Groove Gala\\Assets\\Scripts\\UIScripts\\LoadSceneButton.cs",
               "RelativeToolTip": "Assets\\Scripts\\UIScripts\\LoadSceneButton.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

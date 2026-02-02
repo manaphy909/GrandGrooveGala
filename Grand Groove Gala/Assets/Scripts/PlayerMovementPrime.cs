@@ -32,7 +32,7 @@ public class PlayerMovementPrime : MonoBehaviour
     private float StartDelay = 1.0f;
     public float RepeatDelay;
 
-
+    public GameObject PauseMenu;
 
     public Vector2 Direction = Vector2.up;
 
@@ -350,10 +350,16 @@ public class PlayerMovementPrime : MonoBehaviour
 
     }
 
-
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Escape) && !PauseMenu.activeSelf)
+        {
+            PauseMenu.SetActive(true);
+        }
+        else if (Input.GetKeyDown(KeyCode.Escape) && PauseMenu.activeSelf)
+        {
+            PauseMenu.SetActive(false);
+        }
         CheckMovement();
         ApplyMovement();
         CheckMaskChange();
