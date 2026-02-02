@@ -36339,6 +36339,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tile
       objectReference: {fileID: 0}
+    - target: {fileID: 5761854918671038490, guid: c43d5d52921275b489564b0fd830082f, type: 3}
+      propertyPath: m_TagString
+      value: Door
+      objectReference: {fileID: 0}
     - target: {fileID: 7640482257103751206, guid: c43d5d52921275b489564b0fd830082f, type: 3}
       propertyPath: m_LocalScale.y
       value: 1
